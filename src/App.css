@@ -34,6 +34,13 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) { 
+  .todo-title {
+    font-size: 36px; 
+    line-height: 30px; 
+  }   
+}
+
 /* Current Date */
 
 .current-date {
@@ -95,7 +102,7 @@ body {
 
 .input {
   font-family: 'Aeonik Regular';
-  width: 260px;
+  width: 265px;
   margin-top: 14px; 
   margin-left: 12px; 
 }
