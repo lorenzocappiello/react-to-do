@@ -57,7 +57,7 @@ body {
 
 @media (max-width: 428px) { 
   .todo-list {
-    width: 340px;
+    width: 320px;
   }
 }
 
@@ -101,9 +101,15 @@ body {
 
 .input {
   font-family: 'Aeonik Regular';
-  width: 265px;
+  width: 260px;
   margin-top: 14px; 
   margin-left: 12px; 
+}
+
+@media (max-width: 428px) { 
+  .input {
+    width: 220px;
+  }
 }
 
 .instructions {
