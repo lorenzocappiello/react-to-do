@@ -36,8 +36,8 @@ body {
 
 @media (max-width: 576px) { 
   .todo-title {
-    font-size: 36px; 
-    line-height: 30px; 
+    font-size: 42px; 
+    line-height: 36px; 
   }   
 }
 
