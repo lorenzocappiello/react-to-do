@@ -55,6 +55,12 @@ body {
   margin-top: 24px; 
 }
 
+@media (max-width: 428px) { 
+  .todo-list {
+    width: 340px;
+  }
+}
+
 .todo {
   align-items: center;
   background: #fff;
