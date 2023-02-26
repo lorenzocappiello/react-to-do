@@ -19,7 +19,7 @@ function TodoForm({ addTodo }) {
           value={value}
           onChange={e => setValue(e.target.value)}
         />
-        <p className="instructions">Please, press Enter to enter the to-do!</p>
+        <p className="instructions">Please, press Enter to insert the to-do!</p>
       </form>
     );
   }
