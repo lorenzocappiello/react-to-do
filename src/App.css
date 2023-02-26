@@ -1,38 +1,142 @@
-.App {
+@font-face {
+  font-family: 'Aeonik Regular';
+  src: url(font/Aeonik-Regular.woff);
+}
+
+@font-face {
+  font-family: 'Aeonik SemiBold';
+  src: url(font/Aeonik-SemiBold.woff);
+}
+
+@font-face {
+  font-family: 'Aeonik Bolder';
+  src: url(font/Aeonik-Bolder.woff);
+}
+
+body {
+  background: rgb(75,82,186);
+  background: linear-gradient(90deg, rgba(75,82,186,1) 0%, rgba(118,80,169,1) 35%, rgba(161,82,156,1) 100%);
+}
+
+.app {
+  margin-bottom: 32px;
+}
+
+/* Title Page */
+
+.todo-title {
+  font-family: 'Aeonik Bolder';
+  color: white; 
   text-align: center;
+  font-size: 48px;
+  line-height: 42px;
+  margin-top: 36px; 
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Current Date */
+
+.current-date {
+  font-family: 'Aeonik Regular';
+  color: white; 
+  text-align: center;
+  font-size: 24px;
+  margin-top: -16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* To-Do List */
+
+.todo-list {
+  background: #fff;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 24px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.todo {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #fff;
+  border-radius: 3px; 
+  border: 1.5px solid black;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 10px 10px;
+  font-family: 'Aeonik Regular';
 }
 
-.App-link {
-  color: #61dafb;
+/* Button: 'Complete' + 'Delete' */
+
+.button-complete, .button-delete {
+  font-family: 'Aeonik SemiBold';
+  text-transform: uppercase;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-delete {
+  margin-left: 6px; 
+}
+
+/* SECTION: Add an item */
+
+.form-new-item {
+  margin-top: 6px; 
+}
+
+.add-item {
+  font-family: 'Aeonik SemiBold';
+  font-size: 12px; 
+  margin-left: 9px; 
+  text-transform: uppercase;
+}
+
+.input {
+  font-family: 'Aeonik Regular';
+  width: 290px;
+  margin-top: 14px; 
+  margin-left: 12px; 
+}
+
+.instructions {
+  font-family: 'Aeonik Regular';
+  text-align: center;
+  font-size: 12px; 
+  font-style: italic;
+}
+
+/* Footer */
+
+.copyright {
+  font-family: 'Aeonik Regular';
+  font-size: 12px; 
+  color: white; 
+  text-align: center;
+  margin-top: 36px; 
+}
+
+/* Social Network */
+
+.social-networks {
+  font-size: 16px; 
+  text-align: center;
+  margin-top: 12px; 
+  margin-bottom: 24px; 
+}
+
+.fa {
+  border: 1.5px solid white; 
+  padding: 16px 18px; 
+  border-radius: 40px;
+  text-decoration: none;
+  color: white; 
+  margin-right: 4px; 
+}
+
+.fa:hover {
+  background-color: white;
+  border: 1px solid white; 
+  color: #070514;
 }
