@@ -34,7 +34,7 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 576px) { 
   .todo-title {
     font-size: 36px; 
     line-height: 30px; 
